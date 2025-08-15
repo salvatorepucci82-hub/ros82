@@ -1,0 +1,30 @@
+name: pavimentazione_app
+description: App per monitoraggio lavori di pavimentazione con utenti reali e export PDF
+version: 1.2.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.11
+  sqflite: ^2.2.8+4
+  image_picker: ^0.8.7+4
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  intl: ^0.18.0
+  table_calendar: ^3.0.9
+  pdf: ^3.10.1
+  printing: ^5.10.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
