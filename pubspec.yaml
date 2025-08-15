@@ -1,0 +1,22 @@
+name: pavimentazione_app
+description: App Android per monitoraggio lavori pavimentazione
+version: 1.0.0
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.11
+  sqflite: ^2.2.8+4
+  image_picker: ^0.8.7+4
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  intl: ^0.18.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
